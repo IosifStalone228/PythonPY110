@@ -11,7 +11,7 @@ files:
       offset: 222
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: t0 = time.time()
   - offset: 323
     length: 43
@@ -21,11 +21,11 @@ files:
       offset: 323
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       dt = time.time() - t0
               print(f"Функция выполнялась {dt}")
-  - offset: 484
+  - offset: 488
     length: 29
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
@@ -33,7 +33,7 @@ files:
       offset: 484
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@time_decorator'
   text: |
     import time
@@ -71,6 +71,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

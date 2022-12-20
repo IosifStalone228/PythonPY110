@@ -30,5 +30,8 @@ files:
 - name: input.json
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Dec 2022 11:01:21 UTC
 record: -1

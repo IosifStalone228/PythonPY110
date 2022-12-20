@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 153
-    length: 41
+  - offset: 152
+    length: 64
     placeholder_text: '...)  # TODO записать выражение-генератор'
     initial_state:
       length: 41
       offset: 153
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: len(word) for word in list_words)
   text: |
     def task() -> int:
@@ -37,5 +37,8 @@ files:
   text: |
     9
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 02 Dec 2022 15:30:10 UTC
 record: -1

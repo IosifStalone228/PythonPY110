@@ -4,9 +4,9 @@ import json
 def task():
     filename = "input.json"
     with open(filename) as f:
-        json_data = json.load(f)
+        dicts = json.load(f)
 
-    return ...  # TODO отсортировать список словарей
+    return  sorted(dicts, key=lambda item: item["length"])
 
 
 if __name__ == "__main__":

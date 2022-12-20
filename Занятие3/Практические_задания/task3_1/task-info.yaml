@@ -49,5 +49,11 @@ files:
   text: |
     Hello, World
   learner_created: false
-status: Unchecked
+- name: output.pickle
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 09 Dec 2022 16:19:02 UTC
 record: -1

@@ -1,5 +1,5 @@
-Goldenrod
-Purple
-Salmon
-Turquoise
-Cyan
+GOLDENROD
+PURPLE
+SALMON
+TURQUOISE
+CYAn

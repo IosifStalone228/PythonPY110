@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 395
+  - offset: 413
     length: 85
     placeholder_text: 'print(python_obj)  # TODO распечатать объект как JSON строку
       с отступами и кодировкой'
@@ -12,7 +12,7 @@ files:
       offset: 395
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: print(json.dumps(python_obj, indent=4, ensure_ascii=False))
   text: |
     import json
@@ -54,5 +54,17 @@ files:
 - name: output.json
   visible: true
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 09 Dec 2022 16:12:35 UTC
+  expected: |
+    {
+        "русские слова": "c ними беда :(("
+    }
+  actual: |
+    {'русские слова': 'c ними беда :(('}
+    {
+        "русские слова": "c ними беда :(("
+    }
 record: -1

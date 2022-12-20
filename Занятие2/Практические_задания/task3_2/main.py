@@ -12,6 +12,10 @@ def time_decorator(fn):
         # TODO зафиксировать время после выполнения
 
         print("Этот код будет выполняться после каждого вызова функции")
+
+
+
+
         return result
     return wrapper
 

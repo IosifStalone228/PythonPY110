@@ -4,25 +4,25 @@ files:
   visible: true
   placeholders:
   - offset: 225
-    length: 83
+    length: 89
     placeholder_text: '...)  # TODO составить регулярное выражение, которое находит
       первые две буквы слова'
     initial_state:
       length: 83
       offset: 225
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: r"\b\w\w")
-  - offset: 359
-    length: 49
+  - offset: 365
+    length: 63
     placeholder_text: ')  # TODO найти первые 2 буквы всех слов в строке'
     initial_state:
       length: 49
       offset: 359
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: .findall(word))
   text: |
     import re
@@ -62,5 +62,17 @@ files:
     ['df']
     ['12', 'fe']
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 16 Dec 2022 15:50:23 UTC
+  expected: |
+    ['sd']
+    ['Dd']
+    ['sd']
+    ['12']
+    ['12']
+    ['df']
+    ['12', 'fe']
+  actual: <no output>
 record: -1
